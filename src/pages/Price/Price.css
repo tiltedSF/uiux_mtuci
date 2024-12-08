@@ -1,0 +1,136 @@
+.body-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+.card-container {
+    display: grid;
+    margin: 0;
+    width: 100%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 310px));
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+    flex-grow: 1; 
+}
+
+.card-standart, .card-vip, .card-exclusive {
+    margin: 5%;
+    width: fit-content;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-standart {
+    border-color: #25df22;
+    height: 380px;
+    width: 300px;
+    box-shadow: 10px 1px 71px -11px #25df22;
+}
+
+.card-vip {
+    border-color: #d6d42b;
+    height: 400px;
+    width: 400px;
+    box-shadow: 10px 1px 71px -11px #d6d42b;
+}
+
+.card-exclusive {
+    border-color: #be0505;
+    margin-left: 125px;
+    height: 460px;
+    width: 500px;
+    box-shadow: 10px 1px 71px -11px #be0505;
+}
+
+.card-standart:hover {
+    border-color: #04ff00;
+    box-shadow: 10px 1px 71px -11px #04ff00;
+}
+
+.card-vip:hover {
+    border-color: #fffb00;
+    box-shadow: 10px 1px 71px -11px #fffb00;
+}
+
+.card-exclusive:hover {
+    border-color: #ff0000;
+    box-shadow: 10px 1px 71px -11px #ff0000;
+}
+
+.name-card {
+    margin: auto;
+    margin-top: 5%;
+    width: fit-content;
+    text-align: center;
+}
+
+.name-card-card-standart {
+    color: #25df22;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 36px;
+}
+
+.name-card-card-vip {
+    color: #d6d42b;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 36px;
+}
+
+.name-card-card-exclusive {
+    color: #be0505;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 36px;
+}
+
+.price-card {
+    margin: auto;
+    margin-bottom: 8%;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-card-container {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: fit-content;
+    text-align: left;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.explore-container {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.button-explore {
+    padding: 11px 22px 8px 22px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid #909090;
+    border-radius: 20px;
+}

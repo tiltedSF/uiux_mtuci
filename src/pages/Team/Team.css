@@ -1,0 +1,66 @@
+.body-image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.image-box {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.image-card {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(247, 215, 181, 0.95);
+    border: 5px solid rgb(9, 26,58);
+    border-radius: 8px;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-role {
+    margin-top: 10px;
+    width: fit-content;
+    text-align: center;
+    color: black; 
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.team-name {
+    margin-top: 10px;
+    width: fit-content;
+    text-align: center;
+    min-height: 65px;
+    color: black; 
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px
+}
+
+.title-container-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
