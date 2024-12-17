@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url('./assets/back.jpg');
+    background-size: cover; 
+    background-repeat: repeat;
+    background-position: center;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.title-container {
+    margin-top: 100px;
+}
+
+.pixel-18 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 18px;
+}
+
+.pixel-24 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+}
+
+.pixel-28 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 28px;
+}
+
+.pixel-36 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 36px;
+}
+
+.pixel-48 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 48px;
+}
+
+.pixel-96 {
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 96px;
+}
+
+.smr-18 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 18px;
+}
+
+.smr-24 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 24px;
+}
+
+.smr-28 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 28px;
+}
+
+.smr-36 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 36px;
+}
+
+.smr-48 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 48px;
+}
+
+.smr-96 {
+    color: white;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 96px;
+}
